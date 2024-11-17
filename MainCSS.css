@@ -1,0 +1,74 @@
+body { /* Background colour */
+    background-color: rgb(92, 92, 92);
+}
+ 
+
+
+h1 { /* Colour and font of h1 headings */
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button { /* Makes the Button Pretty Awesome*/
+    background-color: #0069da;
+    height: 100px;
+    width: 500px;
+    border-color: whitesmoke;
+    text-size-adjust: 100px;
+    text-emphasis-color: whitesmoke;
+    color: whitesmoke;
+    font-size: 35px; /* Adjust font size as needed */
+    border-radius: 1000px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 2px 0 0 white, 4px 4px 0 0;
+}
+
+.button :hover{
+    transform: translateY(-10px);
+}
+
+p { /* Colour and fonts of paragraphs */
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+               
+.button:active {    transform: scale(0.95); /* Shrink slightly */
+
+    transform: translateY(-0.5px);
+
+}
+
+.MainDiv {
+    width: 1080px;
+    height: 500px;
+    background-color: gray;
+    display: grid;
+    place-items: center;
+    padding: 1.25px;
+    border-radius: 10px;
+    border: 1px solid white; /* Adds a visible border */
+    margin: 0 auto; /* Centers horizontally */
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+
+.Xlink { /* My X link details */
+    align-items: left;
+    display: grid;
+    place-items: left;
+    transform: translateY(-25px);
+    grid: show;
+    width: 25px;
+    height: 25px;
+}
